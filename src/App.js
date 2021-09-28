@@ -13,7 +13,14 @@ function App() {
           <Dictionary />
         </main>
         <footer className="footer">
-          Coded by Winnie on Github, hosted on Netlify
+          Coded by Winnie, open-sourced on{" "}
+          <a
+            href="https://github.com/Winnie1286/dictionary-project"
+            target="_blank"
+          >
+            Github
+          </a>
+          , and hosted on Netlify
         </footer>
       </div>
     </div>
