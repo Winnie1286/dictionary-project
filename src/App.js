@@ -17,6 +17,7 @@ function App() {
           <a
             href="https://github.com/Winnie1286/dictionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
