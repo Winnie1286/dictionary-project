@@ -17,3 +17,15 @@ code {
   src: local("MagicOwlFont"), url("./MagicOwlFont.otf") format("truetype");
   font-weight: bold;
 }
+ul {
+  list-style: none;
+}
+
+.Word {
+  text-transform: capitalize;
+  padding-top: 7px;
+}
+
+.Partofspeach {
+  text-transform: capitalize;
+}
