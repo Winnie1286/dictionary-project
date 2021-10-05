@@ -10,7 +10,7 @@ function App() {
           <img src={typewriter} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="footer">
           Coded by Winnie, open-sourced on{" "}

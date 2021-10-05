@@ -1,18 +1,21 @@
 .Dictionary {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 8px;
+  border-radius: 10px;
+  padding-bottom: 6px;
 }
 
 .Title {
   font-family: MagicOwlFont;
-  font-size: 58px;
+  font-size: 60px;
+  margin-bottom: 0px;
 }
 
 .Dictionary section {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: 8px;
-  margin: 10px;
+  margin: 10px 32px;
+  padding: 10px;
 }
 
 .Dictionary input {
@@ -23,6 +26,6 @@
 }
 
 .Dictionary .hint {
-  font-size: 11px;
+  font-size: 12px;
   margin: 5px 3px;
 }

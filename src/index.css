@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/218/original/Books_on_curved_bookshelves.jpg?1633318944");
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/218/original/Books_on_curved_bookshelves.jpg?1633318944")
+    no-repeat 50% fixed;
   background-size: cover;
 }
 
@@ -22,11 +22,20 @@ code {
 }
 ul {
   list-style: none;
+  margin-top: 6px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
+  font-size: 14px;
 }
 
 .Word {
   text-transform: capitalize;
   padding-top: 7px;
+  font-weight: bold;
 }
 
 .Partofspeach {
@@ -36,4 +45,5 @@ ul {
 
 .Definition {
   text-transform: capitalize;
+  margin: 15px;
 }
