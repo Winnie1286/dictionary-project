@@ -43,6 +43,10 @@ li {
   padding-top: 7px;
 }
 
+.audio {
+  margin-right: 8px;
+}
+
 .Definition {
   text-transform: capitalize;
   margin: 15px;
